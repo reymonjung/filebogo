@@ -1,0 +1,116 @@
+@charset "utf-8";
+/*global*/
+
+@media screen and (max-width:413px){
+	header .main{margin-top:13%;}
+	header .main ul{width:110%;}
+	.slide,.wrap03,.wrap04,.submenu_01,.sub{padding-top:21%;}
+	.swip_menu nav ul{width:150%;}
+	.wrap02{padding-top:40%;}
+
+	
+	
+	.wrap{padding-top:32.5%;}
+}
+
+@media screen and (max-width:384px){
+	header .main{margin-top:13%;}
+	header .main ul{width:110%;}
+	.slide,.wrap03,.wrap04,.submenu_01,.sub{padding-top:21%;}
+	
+	
+	.wrap02{padding-top:40%;}
+
+	.wrap{padding-top:32.5%;}
+}
+
+@media screen and (max-width:360px){
+	header .main{margin-top:13%;}
+	header .main ul{width:110%;}
+	.slide,.wrap03,.wrap04,.submenu_01,.sub{padding-top:22%;}
+	
+	
+	.wrap02{padding-top:42%;}
+
+	.wrap{padding-top:33%;}
+}
+
+@media screen and (max-width:320px){
+	header .main{margin-top:13%;}
+	header .main ul{width:110%;}
+	.slide,.wrap03,.wrap04,.submenu_01,.sub{padding-top:23%;}
+	
+	
+	.wrap02{padding-top:45%;}
+	.swip_menu nav ul{width:150%;}
+	.wrap{padding-top:35%;}
+
+}
+
+
+
+/*Pc 버전 일때*/
+@media screen and (min-width:414px){
+	header .main{margin-top:55px;}
+	header .main ul{width:100%;}
+	.slide,.wrap03,.wrap04,.submenu_01,.sub{padding-top:93px;}
+	
+	
+	
+	.swip_menu nav ul{width:100%;}
+	.wrap02{padding-top:170px;}
+
+	.wrap{padding-top:140px;}
+	} 
+
+
+
+/*header 영역*/
+header{width:100%; max-width:414px; background-color:#ffb400; box-sizing:border-box; position:fixed; z-index:9999;}
+header .logo{width:100%; max-width:414px;}
+header .logo ul{width:96%; margin:0 auto;}
+header .logo ul li{width:20%; float:left;}
+header .logo ul li:nth-child(2){width:60%; text-align:center;}
+header .logo ul li a{ width:100%; text-decoration:none; color:#000000;  display:inline-block;}
+header .logo ul li:nth-child(1) a img,header nav ul li:nth-child(3) a img{width:100%;}
+header .logo ul li:nth-child(2) a img{width:90%;}
+
+header .main{width:100%; max-width:414px; overflow:scroll; position:fixed; z-index:8888;  font-family: 'Jeju Gothic', sans-serif; }
+header .main ul{height:25px; background-color:#fff; z-index:8888; }
+header .main ul li{width:16.6%; height:100%; float:left; border-right:1px solid #ECECEC; border-bottom:1px solid #ECECEC; box-sizing:border-box; position:relative;}
+header .main ul li:last-child{border-right:0; width:17%;}
+header .main ul li a{width:100%; height:30px; position:absolute; top:0; bottom:0; right:0; left:0; margin:auto;  text-align:center;  font-size:14px;line-height:33px; }
+/*메뉴클릭시*/
+header .main ul #click_bar{box-sizing:border-box;}
+header .main ul #click_bar a{font-weight:bold; color:#0a4e5c;}
+/*============*/
+
+
+
+
+/*scroll bar 숨기기*/
+html {scrollbar-arrow-color: rgba(0,0,0,.2); scrollbar-base-color: rgba(0,0,0,.2); scrollbar-Face-Color: rgba(0,0,0,.2); scrollbar-Track-Color: rgba(0,0,0,.2); scrollbar-DarkShadow-Color: rgba(0,0,0,.2); scrollbar-Highlight-Color: rgba(0,0,0,.2); scrollbar-Shadow-Color: rgba(0,0,0,.2);}
+::-webkit-scrollbar {width: 0px; height: 0px; }
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {display: block; height: 10px;}
+::-webkit-scrollbar-track {background: #efefef; -webkit-border-radius: 10px; border-radius:10px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.2)}
+::-webkit-scrollbar-thumb {height: 50px; width: 50px; background: rgba(0,0,0,.2); -webkit-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.1)}
+/*============*/
+
+/*section 영역 공통사항*/
+section{width:100%; padding:15px 3% 10px; box-sizing:border-box; margin-bottom:3%; max-width:414px; background-color:#fff; display:inline-block;}
+section > h2{font-size:15px; width:100%; max-width:414px; font-weight:bold; margin:0 auto 3%; line-height:16px;}
+section > h2 span a{float:right; font-size:11px; color:#686868;}
+section > h4{display:none;}
+/*============*/
+
+/*footer 영역*/
+footer {width:100%; background-color:#353840; padding:20px 5%; box-sizing:border-box; font-size:10px; text-align:center; color:#c3c3c3; line-height:15px;}
+footer nav{width:100%; margin-bottom:15px; display:inline-block; font-weight:bold;}
+footer nav ul li{width:25%; float:left;}
+footer nav ul li a{width:100%; border-right:1px solid #c3c3c3; color:#c3c3c3; }
+footer nav ul li:last-child a{border-right:0;}
+/*============*/
+
+/*공통 영역*/
+.hide {display:none !important;}
+/*============*/

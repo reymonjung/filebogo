@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+.imglist nav ul li h3,.swip_menu nav ul li h3 { 
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  white-space: normal; height: 2.6em; text-align: left; word-wrap: break-word; 
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+
+.imglist.webtoon ul li a img{width:100%; border-radius:3px; border:1px solid #f1f1f1; box-sizing:border-box;height:180px;}
+.imglist.ebook ul li a img{width:100%; border-radius:3px; border:1px solid #f1f1f1; box-sizing:border-box;height:110px;}
+
+.webtoon ul li a img{width:100%; border-radius:3px; border:1px solid #f1f1f1; box-sizing:border-box;height:130px;}
+
+/*리스트(3행)*/
+.list_03 ul li{width:32%; margin-right:2%; float:left; margin-bottom:10px;}
+.list_03 ul li:nth-child(19),.list_03 ul li:nth-child(20),.list_03 ul li:nth-child(21){margin-bottom:0;}
+.list_03 ul li:nth-child(3n){margin-right:0;}
+.list_03 ul li a img{border-radius:3px; border:1px solid #ececec; width:100%;height:120px;}
+.list_03 ul li h3{font-size:12px; line-height:15px;}
+/*=========*/

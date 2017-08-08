@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.imglist nav ul li h3,.swip_menu nav ul li h3 { 
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  white-space: normal; height: 2.6em; text-align: left; word-wrap: break-word; 
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+
+.webtoon ul li a img{width:100%; border-radius:3px; border:1px solid #f1f1f1; box-sizing:border-box;height:130px;}
